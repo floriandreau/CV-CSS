@@ -1,0 +1,79 @@
+/* GÉNÉRAL */
+
+body{
+    background: #0098B9;
+    margin: 0%;
+    width: 100%;
+}
+
+h3{
+    font-family: "Saira Stencil One";
+    color: white;
+    font-size: 3vh;
+    word-wrap: break-word;
+}
+p{
+    font-family: "Roboto";
+}
+a{
+    font-family: "Roboto";
+    font-size: 1.2em;
+    color: black;
+    padding-right: 1vh;
+}
+a > img:hover{
+    border-radius: 1vh;
+    padding: 1%;
+    background: #00D2FF;
+}
+/* HEADER */
+header{
+    width: 100%;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    background: white;
+    text-align: center;
+    font-size: 2vh;
+    font-family:"Love Ya Like A Sister";
+    color: #0098B9;
+    border-bottom: solid 0.1em black;
+}
+/* PARTIE GAUCHE */
+.part_gauche{
+    float: left;
+    height: 71vh;
+    width: 20vw;
+    padding-left: 1%;
+    border-right: solid 0.1em black;
+    margin-right: 1%;
+}
+.part_gauche > h3{
+    text-align: center;
+}
+
+/* CORPS DU CV */
+.corps{
+    padding-left: 40%;
+    padding-bottom: 2.5vh;
+}
+.maps{
+    width: 35vw;
+    height: 20vh;
+}
+.corps > a > img{
+    width: 5vh;
+    height: auto;
+}
+/* FOOTER */
+footer{
+    background: white;
+    height: auto;
+    border-top: solid 0.1em black;
+    padding-bottom: 1vh;
+    padding-left: 35vw;
+    padding-top: 1vh;
+}
+footer > a > img{
+    width: 30vw;
+    height: auto;
+}

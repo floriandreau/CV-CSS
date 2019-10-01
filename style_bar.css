@@ -1,0 +1,79 @@
+/* BAR 3/5 */
+.progress_bar_3{
+    width: 15vw;
+    height: 2.5vh;
+    padding: 1%;
+    background-color: #191919;
+    border-radius: 16px;
+}
+.progress_bar_3:before { 
+    content: '';
+    display: block;
+    position: absolute;
+    width: 9vw;
+    height: 2.5vh;
+    background: #999;
+    border-radius: 12px;
+}
+.progress_bar_3:after { 
+    content: '|||||||||||||';
+    display: block;
+    position: absolute;
+    width: 9vw;
+    height: 2.5vh;
+    overflow: hidden;
+    border-radius: 12px;
+    transform: skewX(-30deg);
+    font: bold 120px/80px sans-serif;
+    color: #000;
+    opacity: 0.06;
+}
+/* BAR 2/5 */
+.progress_bar_2{
+    width: 15vw;
+    height: 2.5vh;
+    padding: 1%;
+    background-color: #191919;
+    border-radius: 16px;
+}
+.progress_bar_2:before { 
+    content: '';
+    display: block;
+    position: absolute;
+    width: 6vw;
+    height: 2.5vh;
+    background: #999;
+    border-radius: 12px;
+}
+.progress_bar_2:after { 
+    content: '|||||||||||||';
+    display: block;
+    position: absolute;
+    width: 6vw;
+    height: 2.5vh;
+    overflow: hidden;
+    border-radius: 12px;
+    transform: skewX(-30deg);
+    font: bold 120px/80px sans-serif;
+    color: #000;
+    opacity: 0.06;
+}
+/* COLOR BAR */
+.progress_bar_color_html:before{
+    background: linear-gradient(white, grey);
+}
+.progress_bar_color_css:before{
+    background: linear-gradient(#00DE0A, rgb(0, 100, 5));
+}
+.progress_bar_color_boot:before{
+    background: linear-gradient(#8300DE, rgb(67, 0, 116));
+}
+.progress_bar_color_js:before{
+    background: linear-gradient(#DEA500, rgb(121, 90, 0));
+}
+.progress_bar_color_php:before{
+    background: linear-gradient(#DE0028, rgb(116, 0, 21));
+}
+.progress_bar_color_sql:before{
+    background: linear-gradient(#FBFF00, rgb(115, 117, 0));
+}
